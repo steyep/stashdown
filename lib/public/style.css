@@ -1,0 +1,134 @@
+html, body, section, .full-height {
+    height: 100%;
+    color: #333;
+} 
+
+
+#pad{
+    font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+    background: #FAFAFA;
+    border: none;
+    overflow: auto;
+    outline: none;
+    resize: none;
+    height: 100%;
+    padding: 50px;
+
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+#markdown {
+    max-width: 1200px;
+    font-family: Arial, sans-serif;
+    overflow: auto;
+    border-left: 1px solid black;
+}
+
+code {
+    color: #333;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: monospace;
+}
+
+pre {
+    display: block;
+    padding: 6px 10px;
+    margin: 0 2px -1px;
+    font-size: 13px;
+    line-height: 1.42857143;
+    color: #333;
+    word-break: break-all;
+    word-wrap: break-word;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+pre code {
+    border: 0px;
+}
+
+hr {
+    display: block;
+    -webkit-margin-before: 0.5em;
+    -webkit-margin-after: 0.5em;
+    -webkit-margin-start: auto;
+    -webkit-margin-end: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    display: block;
+    font-weight: normal;
+    line-height: 1.5;
+    text-transform: none;
+    margin: 10px 0;
+}
+
+h1, h2 {
+    margin: 10px 0 20px 0;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.25;
+}
+
+h5 {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.42857143;
+    text-transform: none;
+}
+
+h6 {
+    color: #707070;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.66666667;
+    text-transform: uppercase;
+    padding: 0;
+}
+
+blockquote, p {
+    margin: 10px 0 0 0;
+}
+
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+.markup pre code{display:block;font-size:12px;line-height:18px;overflow:auto;padding:6px 10px}.markup code{-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;-moz-background-clip:padding;-webkit-background-clip:padding-box;background-clip:padding-box;border:1px solid #ccc;color:#333;background-color:#f5f5f5;display:inline-block;line-height:20px;margin:0 2px -1px;padding:0px 3px;vertical-align:baseline}.markup h1,.markup h2,.markup h3,.markup h4,.markup h5,.markup h6{display:block}.markup h3,.markup h4,.markup h5,.markup h6{font-weight:bold}.markup h1,.markup h2{margin:10px 0 20px 0}.markup h3,.markup h4,.markup h5,.markup h6{margin:10px 0}.markup ul,.markup ol{margin:10px 30px;padding:0}.markup img{border:1px solid #ccc;margin:10px 0;max-width:100%;padding:5px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}.markup table{border-collapse:collapse;margin:20px 0;width:0}.markup table>tbody>tr,.markup table>tfoot>tr{background:#fff;border-bottom:1px solid #ccc}.markup table>tbody>tr>td,.markup table>tfoot>tr>td{padding:7px 10px;text-align:left;vertical-align:top}.markup table>tbody>tr:first-child,.markup table>tfoot>tr:first-child{border-top:1px solid #ccc}.markup table>thead>tr{border-bottom:1px solid #ccc}.markup table>thead>tr>td,.markup table>thead>tr>th{padding:7px 10px;text-align:left;vertical-align:top}.markup table table{margin:0}.markup .csid{font-family:monospace}.markup .user-mention{-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;-moz-background-clip:padding;-webkit-background-clip:padding-box;background-clip:padding-box;border:1px solid #ccc;color:#333;background-color:#f5f5f5;display:inline-block;line-height:20px;margin:0 2px -1px;padding:0px 3px;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;max-width:100%;vertical-align:bottom;word-wrap:normal}.markup .user-mention.current-user{background-color:#4a6785;color:#fff;border:1px solid #4a6785}.markup>ul{list-style-type:disc}.markup>ul>li>ul{list-style-type:circle}.markup>ul>li>ul>li>ul{list-style-type:square}
+
+blockquote {
+    border-left: 1px solid #ccc;
+    color: #707070;
+    margin-left: 19px;
+    padding: 10px 20px;
+    white-space: normal;
+    font-size: 14px;
+}
