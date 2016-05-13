@@ -1,18 +1,60 @@
-html, body, section, .full-height {
+html, body, section, .full-height{
     height: 100%;
     color: #333;
 } 
 
+header {
+    height: 55px;
+    background: #86070F;
+    box-shadow: 0 0 5px rgba(57,70,78,.2);
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+    /*padding: 6px 20px;*/
+}
+
+input {
+    background-color: #86070F;
+    border: none;
+    color: white;
+    height: 55px;
+    padding: 10px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 1px;
+}
+input:hover {
+    background-color: #9D0812;
+}
+
+.left {
+    position: absolute;
+    left: 0;
+    width: 50%;
+    height: 100%;
+}
+.right {
+    display: block;
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    right: 0;
+}
 
 #pad{
+    height: 100%;
+    top: 0;
+    position: absolute;
+    width: 100%;
     font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
     background: #FAFAFA;
     border: none;
     overflow: auto;
     outline: none;
     resize: none;
-    height: 100%;
-    padding: 50px;
+    padding: 80px 20px;
 
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
@@ -20,6 +62,8 @@ html, body, section, .full-height {
 }
 
 #markdown {
+    padding: 80px 20px;
+    width: 100%;
     max-width: 1200px;
     font-family: Arial, sans-serif;
     overflow: auto;
@@ -121,8 +165,6 @@ p {
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
 }
-
-.markup pre code{display:block;font-size:12px;line-height:18px;overflow:auto;padding:6px 10px}.markup code{-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;-moz-background-clip:padding;-webkit-background-clip:padding-box;background-clip:padding-box;border:1px solid #ccc;color:#333;background-color:#f5f5f5;display:inline-block;line-height:20px;margin:0 2px -1px;padding:0px 3px;vertical-align:baseline}.markup h1,.markup h2,.markup h3,.markup h4,.markup h5,.markup h6{display:block}.markup h3,.markup h4,.markup h5,.markup h6{font-weight:bold}.markup h1,.markup h2{margin:10px 0 20px 0}.markup h3,.markup h4,.markup h5,.markup h6{margin:10px 0}.markup ul,.markup ol{margin:10px 30px;padding:0}.markup img{border:1px solid #ccc;margin:10px 0;max-width:100%;padding:5px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}.markup table{border-collapse:collapse;margin:20px 0;width:0}.markup table>tbody>tr,.markup table>tfoot>tr{background:#fff;border-bottom:1px solid #ccc}.markup table>tbody>tr>td,.markup table>tfoot>tr>td{padding:7px 10px;text-align:left;vertical-align:top}.markup table>tbody>tr:first-child,.markup table>tfoot>tr:first-child{border-top:1px solid #ccc}.markup table>thead>tr{border-bottom:1px solid #ccc}.markup table>thead>tr>td,.markup table>thead>tr>th{padding:7px 10px;text-align:left;vertical-align:top}.markup table table{margin:0}.markup .csid{font-family:monospace}.markup .user-mention{-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;-moz-background-clip:padding;-webkit-background-clip:padding-box;background-clip:padding-box;border:1px solid #ccc;color:#333;background-color:#f5f5f5;display:inline-block;line-height:20px;margin:0 2px -1px;padding:0px 3px;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;max-width:100%;vertical-align:bottom;word-wrap:normal}.markup .user-mention.current-user{background-color:#4a6785;color:#fff;border:1px solid #4a6785}.markup>ul{list-style-type:disc}.markup>ul>li>ul{list-style-type:circle}.markup>ul>li>ul>li>ul{list-style-type:square}
 
 blockquote {
     border-left: 1px solid #ccc;

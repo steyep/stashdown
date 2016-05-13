@@ -18,6 +18,7 @@
     "commander": "^2.9.0",
     "ejs": "^2.3.1",
     "express": "^4.12.4",
+    "open": "0.0.5",
     "requirejs": "^2.2.0"
   },
   "bin": "bin/stashdown.js",
