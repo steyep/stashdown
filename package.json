@@ -18,9 +18,20 @@
     "commander": "^2.9.0",
     "ejs": "^2.3.1",
     "express": "^4.12.4",
-    "open": "0.0.5",
-    "requirejs": "^2.2.0"
+    "jquery": "^2.2.3",
+    "notification-js": "^1.1.1",
+    "open": "0.0.5"
   },
-  "bin": "bin/stashdown.js",
-  "license": "MIT"
+  "bin": {
+    "sd": "bin/stashdown.js"
+  },
+  "scripts": {
+    "build-js": "browserify lib/main.js > lib/public/script.js",
+    "watch-js": "watchify lib/main.js -o lib/public/bundle.js -v"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "browserify": "^13.0.1",
+    "watchify": "^3.7.0"
+  }
 }
